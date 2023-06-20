@@ -1,136 +1,70 @@
-p{
-    text-align: center;
-    font-family: "fantasy";
-}
-#nav{
-    display: flex;
-    justify-content: flex-end;
-    background: black;
-    text-decoration: none;
-}
-a{
-    color: white;
-    text-decoration: none;
-
-}
-li{
-    width: 100px;
-    height: 0px;
-    margin: 0px;
-    padding: 20px;
-    display: inline-block;
-}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.nav-menu li a {
-    text-decoration: none;
-}
-.nav-menu ul {
-    list-style-type: none;
-}
 body{
     background: url("boston_terrier.jpeg");
 }
-.nav-menu:before,
-.nav-menu:after{
-    content: " ";
-    display: table;
+h1{
+    text-align: center;
+    font-family: fantasy;
 }
-.nav-menu:after{
-    clear: both;
+p{
+    text-align: center;
+    font-family: fantasy;
 }
-.nav-menu{
-    *zoom: 1;
-}
+
 nav{
-    padding: 50px;
-}
-.menu,
-.submenu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-/*.menu {
-    margin: 50px auto;
-    width: 800px;
-    width: fit-content;
-    width: fit-content;
-    width: fit-content;
-
-}
-.menu li {
-    background: bisque;
-    float: left;
-    position: relative;
-    transform: skewX(-25deg);
-}*/
-/*.menu a {
-    display: block;
-    color: blueviolet;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Arial, fantasy;
-    font-size: 15px;
-}
-.menu li:hover{
-    background: white;
-}
-.menu-item li a{
-    transform: skewX(-25deg);
-    padding: 1em 2em;
-}
-
-.menu-item  li::after {
-    content: '';
-    position: absolute;
-    top: -125%;
-    height: 100%;
     width: 100%;
-    box-shadow: black;
-}*/
-/*
-.menu-item > li:nth-child(odd){
-    transform: skewX(-25deg) translateX(0);
+    height: 60px;
+    background-color: beige;
 }
-.menu-item > li:nth-child(odd) > a {
-    transform: skewX(-25deg)
-}
-.menu-item > li:nth-child(odd)::after{
-    right: -50%;
-    transform: skewX(-25deg) rotate(3deg);
-}
-.menu-item > li:nth-child(even){
-    transform: skewX(25deg) translateX(0);
-}
-.menu-item > li:nth-child(even) > a {
-    transform: skewX(-25deg);
-}
-.menu-item > li:nth-child(even)::after{\
-left: -50%;
-    transform: skewX(25deg) rotate(3deg);
+nav p{
+    font-family: fantasy;
+    color: blueviolet;
+    font-size: 24px;
+    line-height: 56px;
+    float: left;
+    padding: 0px 21px;
 }
 
-
-.menu-item,
-.menu-item
-
-.menu li a  {
-    transform: skewX(-25deg);
-    width: 200px;
-    left: 50%; margin-left: -100px;
-    transform: skewX(-25deg);
-    transform: origin: left top;
+nav ul{
+    float: left;
 }
-.menu-item li{
-    background-color: aliceblue;
+
+nav ul li{
+    float: left;
+    list-style: none;
     position: relative;
-    overflow: hidden;
-
-
 }
 
-.menu-item*/
+nav ul li a{
+    display: inline-block;
+    font-family: fantasy;
+    color: blueviolet;
+    font-size: 12px;
+    line-height: 56px;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 40px;
+}
+nav ul li ul li a {
+    width: 125px;
+    border-radius:0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li a {
+   padding: 7px 14px;
+}
+nav ul li ul li a:hover{
+   background-color: lavenderblush;
+}
