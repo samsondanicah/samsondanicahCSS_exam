@@ -1,7 +1,3 @@
-h1{
-    text-align: center;
-    font-family: "fantasy";
-}
 p{
     text-align: center;
     font-family: "fantasy";
@@ -15,8 +11,14 @@ p{
 a{
     color: white;
     text-decoration: none;
+
+}
+li{
+    width: 100px;
+    height: 0px;
     margin: 0px;
-    padding: 24px;
+    padding: 20px;
+    display: inline-block;
 }
 *{
     box-sizing: border-box;
@@ -30,7 +32,7 @@ a{
     list-style-type: none;
 }
 body{
-    background: beige;
+    background: url("boston_terrier.jpeg");
 }
 .nav-menu:before,
 .nav-menu:after{
@@ -52,7 +54,7 @@ nav{
     padding: 0;
     list-style: none;
 }
-.menu {
+/*.menu {
     margin: 50px auto;
     width: 800px;
     width: fit-content;
@@ -65,8 +67,8 @@ nav{
     float: left;
     position: relative;
     transform: skewX(-25deg);
-}
-.menu a {
+}*/
+/*.menu a {
     display: block;
     color: blueviolet;
     text-transform: uppercase;
@@ -77,19 +79,20 @@ nav{
 .menu li:hover{
     background: white;
 }
-.menu-item > li > a{
+.menu-item li a{
     transform: skewX(-25deg);
     padding: 1em 2em;
 }
 
-.menu-item > li::after {
+.menu-item  li::after {
     content: '';
     position: absolute;
     top: -125%;
     height: 100%;
     width: 100%;
     box-shadow: black;
-}
+}*/
+/*
 .menu-item > li:nth-child(odd){
     transform: skewX(-25deg) translateX(0);
 }
@@ -130,4 +133,4 @@ left: -50%;
 
 }
 
-.menu-item
+.menu-item*/
