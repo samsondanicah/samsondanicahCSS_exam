@@ -6,9 +6,10 @@ body{
 
 h1{
     padding: 20px;
-    text-align: left;
 }
 
-p{
-    text-align: left;
+.center{
+    font-size: 15px;
+    text-align: center;
+    color: white;
 }
