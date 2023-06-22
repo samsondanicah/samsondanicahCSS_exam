@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background: url("bostonterrier.jpeg");
-    image-orientation: revert;
+    background-image: url("baguio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .center{
     font-size: 30px;
     text-align: center;
