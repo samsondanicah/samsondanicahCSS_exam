@@ -4,7 +4,7 @@
     background-size: 100% 100%;
     border-style: solid;
     height: 500px;
-    margin-top: -120px;
+    margin-top: -100px;
     margin-left: -200px;
     margin-right: -110px;
 }
@@ -21,16 +21,14 @@
     text-align: center;
     padding: 20px;
     color: black;
-
 }
 
-nav{
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    padding: 50px 40px;
-    margin-left: -50px;
-    margin-right: -50px;
+#milk{
+    margin-top: 220px;
+}
+
+#choco{
+    margin-left: -60px;
 }
 
 nav p{
@@ -39,7 +37,7 @@ nav p{
     font-size: 26px;
     line-height: 20px;
     float: left;
-    padding: 0px;
+    padding: 0px 30px;
 }
 
 nav span{
@@ -49,7 +47,7 @@ nav span{
 nav ul{
     float: right;
     font-size: 20px;
-    padding: 0px 80px;
+    padding: 0px 60px;
 }
 
 nav ul li{
@@ -63,7 +61,6 @@ nav ul li a{
     font-family: fantasy;
     color: whitesmoke;
     font-size: 15px;
-    line-height: 10px;
     padding: 30px 20px;
     text-decoration: none;
 }

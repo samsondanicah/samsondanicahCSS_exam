@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("baguio.jpeg");
+    background-image: url("dark.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,6 +13,14 @@ body{
     font-size: 30px;
     text-align: center;
     padding: 300px 400px;
+    color: black;
+}
+
+#centers{
+    font-size: 30px;
+    text-align: center;
+    padding: -300px;
+    color: white;
 }
 
 nav{
