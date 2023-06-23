@@ -2,87 +2,121 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, SansSerif;
 }
 body{
     background-image: url("dark.jpeg");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.center{
-    font-size: 30px;
-    text-align: center;
-    padding: 300px 400px;
-    color: whitesmoke;
-}
+.glass{
+    width: 1200px;
+    height: 600px;
+    box-shadow: 0 0 rgba(255,255,255,1);
+    background-image: url("dark.jpeg");
+    background-position: center;
+    background-size: cover;
 
-#centers{
-    font-size: 30px;
-    text-align: center;
-    padding: -300px;
-    color: white;
 }
 
 nav{
-    width: 100%;
-    height: 100px;
-    background-color: black;
+    display: flex;
+    padding: 30px 10%;
 }
 
-nav p{
-    font-family: Century Gothic ;
-    color: whitesmoke;
-    font-size: 26px;
-    line-height: 20px;
+.logo {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
     float: left;
-    padding: 20px;
-}
-
-nav span{
-    color: mediumslateblue;
-}
-
-nav ul{
-    float: right;
     font-size: 20px;
-    padding: 0px 70px;
+    padding: 0px 20px;
 }
 
-nav ul li{
-    float: left;
+nav ul li {
     list-style: none;
-    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
 }
 
-nav ul li a{
-    display: block;
-    font-family: fantasy;
-    color: whitesmoke;
-    font-size: 15px;
-    line-height: 50px;
-    padding: 50px 25px;
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+
+}
+
+nav ul li a {
     text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: 0.1s ease;
+}
+
+img:hover {
+    border: 2px solid;
+}
+h3 {
+    color: #fff;
+    margin: 80px 110px -25px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: white;
+    margin: 0 110px;
+    font-family:  Verdana, Geneva, Tahoma, SansSerif;
+    font-size: 100px;
+    letter-spacing: 10px;
+    opacity: 0.4;
+
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000, #fff);
+    background-size: 180px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
 }
 
 nav ul li ul{
     display: none;
     position: absolute;
-    background-color: black;
-    padding: 20px;
-}
-nav ul li ul li a {
-    width: 150px;
-    border-radius:0px 0px 4px 4px;
+    background-color: bisque;
+    padding: 50px 20px;
+    margin-right: 20px;
 }
 
 nav ul li a:hover {
-    color: #8A2BE2;
+    color: crimson;
 }
 nav ul li:hover ul{
     display: block;
 }
 nav ul li ul li a {
-   padding: 7px 14px;
+   padding: 20px 20px;
 }
 nav ul li ul li a:hover{
    background-color: bisque;
