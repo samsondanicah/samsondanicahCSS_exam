@@ -3,24 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background-image: url("dark.jpeg");
+    background-image: url("water.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.center{
-    font-size: 30px;
-    text-align: center;
-    padding: 300px 400px;
-    color: whitesmoke;
-}
-
-#centers{
-    font-size: 30px;
-    text-align: center;
-    padding: -300px;
-    color: white;
 }
 
 nav{
@@ -82,12 +69,8 @@ nav ul li:hover ul{
     display: block;
 }
 nav ul li ul li a {
-   padding: 7px 14px;
+    padding: 7px 14px;
 }
 nav ul li ul li a:hover{
-   background-color: bisque;
+    background-color: bisque;
 }
-
-
-
-
