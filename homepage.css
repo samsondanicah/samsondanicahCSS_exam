@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, SansSerif;
 }
 body{
-    background-image: url("dark.jpeg");
+    background-image: url("gray.jpeg");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -19,7 +19,7 @@ body{
     width: 1200px;
     height: 600px;
     box-shadow: 0 0 rgba(255,255,255,1);
-    background-image: url("dark.jpeg");
+    background-image: url("gray.jpeg");
     background-position: center;
     background-size: cover;
 
@@ -27,7 +27,7 @@ body{
 
 nav{
     display: flex;
-    padding: 30px 10%;
+    padding: 60px 10%;
 }
 
 .logo {
@@ -63,14 +63,21 @@ nav ul li a {
     font-weight: bold;
 }
 
+
 img {
     width: 35px;
     height: 35px;
-    border-radius: 50%;
+    border-radius: 60%;
     cursor: pointer;
-    margin-top: -7px;
+    margin-top: -5px;
     transition: 0.1s ease;
+/*    display: none;*/
+/*    position: absolute;*/
+/*    background-color: bisque;*/
+/*    padding: 50px 20px;*/
+/*    margin-right: 20px;*/
 }
+
 
 img:hover {
     border: 2px solid;
